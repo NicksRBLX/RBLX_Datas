@@ -32,7 +32,7 @@ return {
             ["Upgrades"] = 1;
             ["ID"] = "log_roller_2";
         }
-    },
+    };
     [55] = {
         {
             ["Task"] = "Place Unit";
@@ -51,7 +51,7 @@ return {
             ["Upgrades"] = 2;
             ["ID"] = "log_roller_3";
         }
-    },
+    };
     [70] = {
         {
             ["Task"] = "Place Unit";
@@ -70,7 +70,7 @@ return {
             ["Upgrades"] = 2;
             ["ID"] = "log_roller_4";
         }
-    },
+    };
     [90] = {
         {
             ["Task"] = "Place Unit";
@@ -89,5 +89,5 @@ return {
             ["Upgrades"] = 2;
             ["ID"] = "log_roller_5";
         }
-    }
+    };
 }
