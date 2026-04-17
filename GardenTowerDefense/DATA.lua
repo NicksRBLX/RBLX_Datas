@@ -73,5 +73,5 @@ return {
 		["Space"] = {
 			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" }
 		};
-	}
+	};
 }
