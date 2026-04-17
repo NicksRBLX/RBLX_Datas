@@ -20,6 +20,25 @@ return {
 		};
 	};
 
+	["LIMITED_STOCK_UNITS"] = {
+		["Shockshroom"] = {
+			["ID"] = "",
+			["PRICE"] = "35,000 | GEMS",
+		},
+		["Gemspire"] = {
+			["ID"] = "",
+			["PRICE"] = "50,000 | GEMS",
+		},
+		["Egg Basketstem"] = {
+			["ID"] = "",
+			["PRICE"] = "75,000 | EGGS",
+		},
+		["Bunny Mech"] = {
+			["ID"] = "",
+			["PRICE"] = "100,000 | EGGS",
+		},
+	};
+
 	["DIFFICULTY_LIST"] = {
 		["Easy"] = "dif_easy",
 		["Normal"] = "dif_normal",
@@ -47,31 +66,40 @@ return {
 
 	["MAPS"] = {
 		["Garden"] = {
-			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane" }
+			["ID"] = "map_farm",
+			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane" },
 		};
 		["Enchanted Jungle"] = {
-			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" }
+			["ID"] = "map_jungle",
+			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" },
 		};
 		["Tropical Island"] = {
-			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" }
+			["ID"] = "",
+			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" },
 		};
 		["Toxic Facility"] = {
-			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" }
+			["ID"] = "map_toxic",
+			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" },
 		};
 		["Graveyard"] = {
-			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" }
+			["ID"] = "map_graveyard",
+			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" },
 		};
 		["Back Garden"] = {
-			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" }
+			["ID"] = "",
+			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" },
 		};
 		["Dojo"] = {
-			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible", "Apocalypse" }
+			["ID"] = "",
+			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible", "Apocalypse" },
 		};
 		["Winter Wonderland"] = {
-			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible", "Apocalypse" }
+			["ID"] = "",
+			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible", "Apocalypse" },
 		};
 		["Space"] = {
-			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible", "Apocalypse" }
+			["ID"] = "map_space",
+			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible", "Apocalypse" },
 		};
 	};
 }
