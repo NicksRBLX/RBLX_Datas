@@ -6,7 +6,7 @@ return {
 			["Classic Summon"] = { ID = "ub_classic", PRICE_X1 = 100, PRICE_X10 = 900 },
 			["Corrupted Summon"] = { ID = "ub_corrupted", PRICE_X1 = 500, PRICE_X10 = 4500 },
 			["Crystal Summon"] = { ID = "ub_crystal", PRICE_X1 = 250, PRICE_X10 = 2250 },
-			["Enchanted Summon"] = { ID = "ub_enchanted", PRICE_X1 = 150, PRICE_X10 = 1350 },
+			["Enchanted Summon"] = { ID = "ub_jungle", PRICE_X1 = 150, PRICE_X10 = 1350 },
 			["Greenhouse Summon"] = { ID = "ub_greenhouse", PRICE_X1 = 500, PRICE_X10 = 4500 },
 			["Mushroom Summon"] = { ID = "ub_mushroom", PRICE_X1 = 300, PRICE_X10 = 2700 },
 			["Sun Summon"] = { ID = "ub_sun", PRICE_X1 = 200, PRICE_X10 = 1800 },
@@ -23,19 +23,19 @@ return {
 	["LIMITED_STOCK_UNITS"] = {
 		["Shockshroom"] = {
 			["ID"] = "unit_jelly_shroom",
-			["PRICE"] = "35,000 | GEMS",
+			["PRICE"] = "35,000 GEMS",
 		},
 		["Gemspire"] = {
 			["ID"] = "unit_crystal_flower",
-			["PRICE"] = "50,000 | GEMS",
+			["PRICE"] = "50,000 GEMS",
 		},
 		["Egg Basketstem"] = {
 			["ID"] = "unit_egg_basket",
-			["PRICE"] = "75,000 | EGGS",
+			["PRICE"] = "75,000 EGGS",
 		},
 		["Bunny Mech"] = {
 			["ID"] = "unit_bunny_golem",
-			["PRICE"] = "100,000 | EGGS",
+			["PRICE"] = "100,000 EGGS",
 		},
 	};
 
