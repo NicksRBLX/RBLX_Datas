@@ -22,19 +22,19 @@ return {
 
 	["LIMITED_STOCK_UNITS"] = {
 		["Shockshroom"] = {
-			["ID"] = "",
+			["ID"] = "unit_jelly_shroom",
 			["PRICE"] = "35,000 | GEMS",
 		},
 		["Gemspire"] = {
-			["ID"] = "",
+			["ID"] = "unit_crystal_flower",
 			["PRICE"] = "50,000 | GEMS",
 		},
 		["Egg Basketstem"] = {
-			["ID"] = "",
+			["ID"] = "unit_egg_basket",
 			["PRICE"] = "75,000 | EGGS",
 		},
 		["Bunny Mech"] = {
-			["ID"] = "",
+			["ID"] = "unit_bunny_golem",
 			["PRICE"] = "100,000 | EGGS",
 		},
 	};
