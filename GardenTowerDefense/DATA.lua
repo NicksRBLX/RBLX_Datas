@@ -1,27 +1,4 @@
 return {
-	["EGGS"] = {
-		"beanstalk",
-		"bling",
-		"chocolate",
-		"conveyor",
-		"defeat",
-		"disco",
-		"endless",
-		"floral",
-		"flowering",
-		"greenhouse",
-		"haybale",
-		"leaderboard",
-		"rage",
-		"rainbow",
-		"rock",
-		"survival",
-		"tree",
-		"upgrade",
-		"victory",
-		"windmill",
-	};
-	
 	["SUMMON"] = {
 		["SEEDS"] = {
 			["Astral Summon"] = { ID = "ub_astral", PRICE_X1 = 300, PRICE_X10 = 2700 },
@@ -36,10 +13,51 @@ return {
 			["Tropical Summon"] = { ID = "ub_tropical", PRICE_X1 = 200, PRICE_X10 = 1800 },
 		};
 		["GEMS"] = {
-			["Galaxy Summon"] = { ID = "ub_galaxy", PRICE_X1 = 25, PRICE_X10 = 225 },
+			["Galaxy Summon"] = { ID = "ub_space", PRICE_X1 = 25, PRICE_X10 = 225 },
 		};
 		["EGGS"] = {
-			["Bunny Summon"] = { ID = "ub_bunny", PRICE_X1 = 100, PRICE_X10 = 900 },
+			["Bunny Summon"] = { ID = "ub_easter", PRICE_X1 = 100, PRICE_X10 = 900 },
 		};
 	};
+
+	["DIFFICULTY_LIST"] = {
+		["Easy"] = "dif_easy",
+		["Normal"] = "dif_normal",
+		["Hard"] = "dif_hard",
+		["Insane"] = "dif_insane",
+		["Impossible"] = "dif_impossible",
+		["Apocalypse"] = "dif_apocalypse"
+	};
+	
+	["MAP_LIST"] = {"Garden", "Enchanted Jungle", "Tropical Island", "Toxic Facility", "Graveyard", "Back Garden", "Dojo", "Winter Wonderland", "Space"};
+	
+	["MAPS"] = {
+		["Garden"] = {
+			["Difficulties"] = {"Easy", "Normal", "Hard", "Insane"}
+		};
+		["Enchanted Jungle"] = {
+			["Difficulties"] = {"Easy", "Normal", "Hard", "Insane"}
+		};
+		["Tropical Island"] = {
+			["Difficulties"] = {"Easy", "Normal", "Hard", "Insane"}
+		};
+		["Toxic Facility"] = {
+			["Difficulties"] = {"Easy", "Normal", "Hard", "Insane"}
+		};
+		["Graveyard"] = {
+			["Difficulties"] = {"Easy", "Normal", "Hard", "Insane"}
+		};
+		["Back Garden"] = {
+			["Difficulties"] = {"Easy", "Normal", "Hard", "Insane", "Impossible"}
+		};
+		["Dojo"] = {
+			["Difficulties"] = {"Easy", "Normal", "Hard", "Insane", "Impossible"}
+		};
+		["Winter Wonderland"] = {
+			["Difficulties"] = {"Easy", "Normal", "Hard", "Insane", "Impossible", "Apocalypse"}
+		};
+		["Space"] = {
+			["Difficulties"] = {}
+		};
+	}
 }
