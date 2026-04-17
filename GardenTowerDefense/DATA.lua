@@ -29,35 +29,49 @@ return {
 		["Apocalypse"] = "dif_apocalypse"
 	};
 	
-	["MAP_LIST"] = {"Garden", "Enchanted Jungle", "Tropical Island", "Toxic Facility", "Graveyard", "Back Garden", "Dojo", "Winter Wonderland", "Space"};
+	["MAP_LIST"] = {
+		"Garden",
+		"Enchanted Jungle",
+		"Tropical Island",
+		"Toxic Facility",
+		"Graveyard",
+		"Back Garden",
+		"Dojo",
+		"Winter Wonderland",
+		"Space"
+	};
 	
+	["PLACE_IDS"] = {
+		[123516946198836] = { ["MAP"] = "Garden", ["TYPE"] = "Endless" };
+	};
+
 	["MAPS"] = {
 		["Garden"] = {
-			["Difficulties"] = {"Easy", "Normal", "Hard", "Insane"}
+			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane" }
 		};
 		["Enchanted Jungle"] = {
-			["Difficulties"] = {"Easy", "Normal", "Hard", "Insane"}
+			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane" }
 		};
 		["Tropical Island"] = {
-			["Difficulties"] = {"Easy", "Normal", "Hard", "Insane"}
+			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane" }
 		};
 		["Toxic Facility"] = {
-			["Difficulties"] = {"Easy", "Normal", "Hard", "Insane"}
+			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane" }
 		};
 		["Graveyard"] = {
-			["Difficulties"] = {"Easy", "Normal", "Hard", "Insane"}
+			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane" }
 		};
 		["Back Garden"] = {
-			["Difficulties"] = {"Easy", "Normal", "Hard", "Insane", "Impossible"}
+			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" }
 		};
 		["Dojo"] = {
-			["Difficulties"] = {"Easy", "Normal", "Hard", "Insane", "Impossible"}
+			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" }
 		};
 		["Winter Wonderland"] = {
-			["Difficulties"] = {"Easy", "Normal", "Hard", "Insane", "Impossible", "Apocalypse"}
+			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible", "Apocalypse" }
 		};
 		["Space"] = {
-			["Difficulties"] = {}
+			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" }
 		};
 	}
 }
