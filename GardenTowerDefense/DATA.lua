@@ -74,7 +74,7 @@ return {
 			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" },
 		};
 		["Tropical Island"] = {
-			["ID"] = "map_tropical",
+			["ID"] = "map_island",
 			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" },
 		};
 		["Toxic Facility"] = {
@@ -86,7 +86,7 @@ return {
 			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" },
 		};
 		["Back Garden"] = {
-			["ID"] = "",
+			["ID"] = "map_back_garden",
 			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" },
 		};
 		["Dojo"] = {
@@ -94,7 +94,7 @@ return {
 			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible", "Apocalypse" },
 		};
 		["Winter Wonderland"] = {
-			["ID"] = "",
+			["ID"] = "map_christmas",
 			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible", "Apocalypse" },
 		};
 		["Space"] = {
