@@ -29,13 +29,13 @@ return {
 			["ID"] = "unit_crystal_flower",
 			["PRICE"] = "50,000 GEMS",
 		},
-		["Egg Basketstem"] = {
-			["ID"] = "unit_egg_basket",
-			["PRICE"] = "75,000 EGGS",
+		["Firecore Stem"] = {
+			["ID"] = "unit_fire_bloom",
+			["PRICE"] = "150,000 SEEDS",
 		},
-		["Bunny Mech"] = {
-			["ID"] = "unit_bunny_golem",
-			["PRICE"] = "100,000 EGGS",
+		["Blinkbloom"] = {
+			["ID"] = "unit_eye_flower",
+			["PRICE"] = "75,000 EGGS",
 		},
 	};
 
