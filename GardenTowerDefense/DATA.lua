@@ -47,7 +47,7 @@ return {
 		["Impossible"] = "dif_impossible",
 		["Apocalypse"] = "dif_apocalypse"
 	};
-	
+
 	["MAP_LIST"] = {
 		"Garden",
 		"Enchanted Jungle",
@@ -59,7 +59,7 @@ return {
 		"Winter Wonderland",
 		"Space"
 	};
-	
+
 	["PLACE_IDS"] = {
 		[123516946198836] = { ["MAP"] = "Garden", ["TYPE"] = "Endless" };
 	};
