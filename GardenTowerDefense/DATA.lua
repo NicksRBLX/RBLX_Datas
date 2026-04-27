@@ -66,47 +66,47 @@ return {
 
 	["MAPS"] = {
 		["Garden"] = {
-			["Allowed"] = {"Classic", "Endless", "Survival"},
+			["Available"] = {"Classic", "Endless", "Survival"},
 			["ID"] = "map_farm",
 			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane" },
 		};
 		["Enchanted Jungle"] = {
-			["Allowed"] = {"Classic", "Endless", "Survival"},
+			["Available"] = {"Classic", "Endless", "Survival"},
 			["ID"] = "map_jungle",
 			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" },
 		};
 		["Tropical Island"] = {
-			["Allowed"] = {"Classic", "Endless", "Survival"},
+			["Available"] = {"Classic", "Endless", "Survival"},
 			["ID"] = "map_island",
 			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" },
 		};
 		["Toxic Facility"] = {
-			["Allowed"] = {"Classic", "Endless", "Survival"},
+			["Available"] = {"Classic", "Endless", "Survival"},
 			["ID"] = "map_toxic",
 			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" },
 		};
 		["Graveyard"] = {
-			["Allowed"] = {"Classic", "Endless", "Survival"},
+			["Available"] = {"Classic", "Endless", "Survival"},
 			["ID"] = "map_graveyard",
 			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" },
 		};
 		["Back Garden"] = {
-			["Allowed"] = {"Classic", "Endless", "Survival"},
+			["Available"] = {"Classic", "Endless", "Survival"},
 			["ID"] = "map_back_garden",
 			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" },
 		};
 		["Dojo"] = {
-			["Allowed"] = {"Classic", "Endless", "Survival"},
+			["Available"] = {"Classic", "Endless", "Survival"},
 			["ID"] = "map_dojo",
 			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible", "Apocalypse" },
 		};
 		["Winter Wonderland"] = {
-			["Allowed"] = {"Classic", "Endless", "Survival"},
+			["Available"] = {"Classic", "Endless", "Survival"},
 			["ID"] = "map_christmas",
 			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible", "Apocalypse" },
 		};
 		["Space"] = {
-			["Allowed"] = {"Classic", "Endless"},
+			["Available"] = {"Classic", "Endless"},
 			["ID"] = "map_space",
 			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible", "Apocalypse" },
 		};
