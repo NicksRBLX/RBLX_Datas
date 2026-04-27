@@ -111,4 +111,14 @@ return {
 			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible", "Apocalypse" },
 		};
 	};
+
+	["Target Priority"] = {
+		["First"] = 1;
+		["Last"] = 2;
+		["Central"] = 3;
+		["Weakest"] = 4;
+		["Strongest"] = 5;
+		["Closest"] = 6;
+		["Random"] = 7;
+	}
 }
