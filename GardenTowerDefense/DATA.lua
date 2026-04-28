@@ -21,31 +21,10 @@ return {
 	};
 
 	["LIMITED_STOCK_UNITS"] = {
-		["Shockshroom"] = {
-			["ID"] = "unit_jelly_shroom",
-			["PRICE"] = "35,000 GEMS",
-		},
-		["Gemspire"] = {
-			["ID"] = "unit_crystal_flower",
-			["PRICE"] = "50,000 GEMS",
-		},
-		["Firecore Stem"] = {
-			["ID"] = "unit_fire_bloom",
-			["PRICE"] = "150,000 SEEDS",
-		},
-		["Blinkbloom"] = {
-			["ID"] = "unit_eye_flower",
-			["PRICE"] = "75,000 EGGS",
-		},
-	};
-
-	["DIFFICULTY_LIST"] = {
-		["Easy"] = "dif_easy",
-		["Normal"] = "dif_normal",
-		["Hard"] = "dif_hard",
-		["Insane"] = "dif_insane",
-		["Impossible"] = "dif_impossible",
-		["Apocalypse"] = "dif_apocalypse"
+		["Shockshroom"] = { ["ID"] = "unit_jelly_shroom", ["PRICE"] = "35,000 GEMS" },
+		["Gemspire"] = { ["ID"] = "unit_crystal_flower", ["PRICE"] = "50,000 GEMS" },
+		--["Firecore Stem"] = { ["ID"] = "unit_fire_bloom", ["PRICE"] = "150,000 SEEDS" },
+		--["Blinkbloom"] = { ["ID"] = "unit_eye_flower", ["PRICE"] = "75,000 EGGS" },
 	};
 
 	["MAP_LIST"] = {
@@ -67,48 +46,48 @@ return {
 	["MAPS"] = {
 		["Garden"] = {
 			["Available"] = {"Classic", "Endless", "Survival"},
-			["ID"] = "map_farm",
-			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane" },
+			["ID"] = "farm",
+			["Classic Difficulties"] = 4,
 		};
 		["Enchanted Jungle"] = {
 			["Available"] = {"Classic", "Endless", "Survival"},
-			["ID"] = "map_jungle",
-			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" },
+			["ID"] = "jungle",
+			["Classic Difficulties"] = 5,
 		};
 		["Tropical Island"] = {
 			["Available"] = {"Classic", "Endless", "Survival"},
-			["ID"] = "map_island",
-			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" },
+			["ID"] = "island",
+			["Classic Difficulties"] = 5,
 		};
 		["Toxic Facility"] = {
 			["Available"] = {"Classic", "Endless", "Survival"},
-			["ID"] = "map_toxic",
-			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" },
+			["ID"] = "toxic",
+			["Classic Difficulties"] = 5,
 		};
 		["Graveyard"] = {
 			["Available"] = {"Classic", "Endless", "Survival"},
-			["ID"] = "map_graveyard",
-			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" },
+			["ID"] = "graveyard",
+			["Classic Difficulties"] = 5,
 		};
 		["Back Garden"] = {
 			["Available"] = {"Classic", "Endless", "Survival"},
-			["ID"] = "map_back_garden",
-			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible" },
+			["ID"] = "back_garden",
+			["Classic Difficulties"] = 5,
 		};
 		["Dojo"] = {
 			["Available"] = {"Classic", "Endless", "Survival"},
-			["ID"] = "map_dojo",
-			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible", "Apocalypse" },
+			["ID"] = "dojo",
+			["Classic Difficulties"] = 6;
 		};
 		["Winter Wonderland"] = {
 			["Available"] = {"Classic", "Endless", "Survival"},
-			["ID"] = "map_christmas",
-			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible", "Apocalypse" },
+			["ID"] = "christmas",
+			["Classic Difficulties"] = 6;
 		};
 		["Space"] = {
 			["Available"] = {"Classic", "Endless"},
-			["ID"] = "map_space",
-			["Difficulties"] = { "Easy", "Normal", "Hard", "Insane", "Impossible", "Apocalypse" },
+			["ID"] = "space",
+			["Classic Difficulties"] = 6;
 		};
 	};
 
