@@ -97,5 +97,5 @@ return {
 		["Strongest"] = 5;
 		["Closest"] = 6;
 		["Random"] = 7;
-	}
+	};
 }
