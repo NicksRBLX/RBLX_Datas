@@ -21,10 +21,8 @@ return {
 	};
 
 	["LIMITED_STOCK_UNITS"] = {
-		["Shockshroom"] = { ["ID"] = "unit_jelly_shroom", ["PRICE"] = "35,000 GEMS" },
-		["Gemspire"] = { ["ID"] = "unit_crystal_flower", ["PRICE"] = "50,000 GEMS" },
-		--["Firecore Stem"] = { ["ID"] = "unit_fire_bloom", ["PRICE"] = "150,000 SEEDS" },
-		--["Blinkbloom"] = { ["ID"] = "unit_eye_flower", ["PRICE"] = "75,000 EGGS" },
+		["unit_jelly_shroom"] = { ["PRICE"] = "35,000 GEMS" },
+		["unit_crystal_flower"] = { ["PRICE"] = "50,000 GEMS" },
 	};
 
 	["MAP_LIST"] = {
